@@ -1,0 +1,692 @@
+.verde-claro {
+	color: #00D18C;
+}
+
+.verde-azulado {
+	color: #00BCD2;
+}
+
+.verde-bebe h2 {
+	color: #4DA5FA;
+}
+
+.cinza {
+	color: #7E7E7E !important;
+}
+
+.branco {
+	color: #fff;
+}
+
+.cinza-escuro {
+	color: #424242;
+}
+
+.azul-escuro {
+	color: #3637AF;
+}
+
+.azul-oceano {
+	color: #231E6F;
+}
+
+.azul-claro {
+	color: #BEE7FF;
+}
+
+.rosa-botao {
+	color: #FF2D4A;
+}
+
+.background-preto {
+	background-color: #191919;
+}
+
+.background-azul-medio {
+	background-color: #3637AF;
+}
+
+.background-azul-escuro {
+	background-color:  #263373;
+}
+
+.background-azul-escuro h2 {
+	font-weight: 700;
+}
+
+.background-azul-escuro p {
+	color: #FFF;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 400;
+}
+
+.posicionamento-relativo {
+	position: relative;
+	top: -40px;
+	bottom: -40px;
+	z-index: 999;
+}
+
+.espacamento-entre-paginas {
+	margin-top: 60px;
+	margin-bottom: -60px; 
+}
+
+/* GERAL */
+.max-width {
+	max-width: 100%;
+}
+
+/* TOPO MOBILE */
+.topo-mobile {
+	width: 100%;
+	height: 60px;
+	padding: 15px;
+	text-align: center;
+	background-color: #2E64B5;
+}
+.tm-logo img {
+	height: 30px;
+}
+
+/* FIM - TOPO MOBILE */
+
+#tv_container {
+    /* width: 400px; /* Adjust TV image width */
+    height: 400px; /* Adjust TV image height */
+    position: relative;
+    margin-bottom: 5em;
+}
+
+#tv_container:after {
+    content: '';
+    display: block;
+    background: url('../img/4-border.png') no-repeat top left transparent;
+    width: 100%;
+    height: 140%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    z-index: 10;
+}
+
+#tv_container video {
+    position: absolute;
+    top: 55px; /* Adjust top position */
+    left: 104px; /* Adjust left position */
+    z-index: 5;
+}
+
+.all-container {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#004196+0,004196+51,ffffff+51,ffffff+100 */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2E64B5+0,004196+51,ffffff+51,ffffff+100 */
+	background: #2E64B5; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #2E64B5 0%, #2E64B5 51%, #ffffff 51%, #ffffff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #2E64B5 0%,#2E64B5 51%,#ffffff 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #2E64B5 0%,#2E64B5 51%,#ffffff 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2E64B5', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.entrada {
+	border-
+}
+
+.nos-na-midia {
+	padding: 1em 0em;
+}
+
+.nos-na-midia p {
+	color: #424242;
+}
+
+div.centralizado {
+	float: none;
+    margin: 0 auto;
+}
+
+.submeter-formulario {
+	padding-top: 1.2em;
+}
+
+ul.slide-noticias {
+	display: inline;
+	list-style: none;
+	margin: 0 !important;
+	padding: 0 !important;
+	overflow: hidden;
+	float: left;
+}
+
+ul.slide-noticias>li {
+	display: none;
+	float: left;
+}
+
+ul.slide-noticias>li.active {
+	display: block;
+}
+
+ul.slide-noticias p {
+	padding: 2em 0em;
+}
+
+.slide-noticias img {
+	width: 120px;
+}
+
+/* PERFIL MEDICO */
+.medico-perfil {
+	width: 315px;
+}
+
+.mp-img {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-right: 15px;
+}
+
+.mp-infos {
+	float: left;
+	width: 200px;
+	text-align: left;
+}
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+
+    	.all-container {
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#004196+0,004196+51,ffffff+51,ffffff+100 */
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2E64B5+0,004196+51,ffffff+51,ffffff+100 */
+			background: #2E64B5; /* Old browsers */
+			background: -moz-linear-gradient(340deg, #2E64B5 0%, #2E64B5 51%, #ffffff 51%, #ffffff 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(340deg, #2E64B5 0%,#2E64B5 51%,#ffffff 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(340deg, #2E64B5 0%,#2E64B5 51%,#ffffff 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2E64B5', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+		}
+
+    	.posicionamento-relativo {
+			position: relative;
+			top: 0px;
+			bottom: 0px;
+		}
+
+        .diagonal-background-verde-azulado {
+		  background-color: #00BCD2;
+		  background: -moz-linear-gradient(180deg, #FFFFFF 0% , #FFFFFF 80%,  #00BCD2 80%, #00BCD2 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(180deg, #FFFFFF 0% , #FFFFFF 80%,  #00BCD2 80%, #00BCD2 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(180deg, #FFFFFF 0% , #FFFFFF 80%,  #00BCD2 80%, #00BCD2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		}
+
+		.diagonal-background-verde-azulado h2 {
+			font-size: 1.4em;
+			line-height: 1.2em;
+			font-weight: 700;
+			#text-align: justify;
+			#text-justify: inter-word;
+		}
+
+		.diagonal-background-verde-azulado p {
+			font-size: 0.9em;
+			line-height: 1.25em;
+			letter-spacing: 0.02em;
+			#text-align: justify;
+    		#text-justify: inter-word;
+		}
+
+		.conteudo-agendamento-online {
+			padding-top: 2em;
+		}
+
+		.agendamento-online-posicionamento {
+			z-index: 0;
+			padding: 3em;
+		}
+		.prontuario-eletronico-conteudo {
+			padding-top: 2.4em;
+		}
+
+		.diagonal-background-verde-claro {
+		  background-color: #00DCA5;
+
+		  background: -moz-linear-gradient(180deg, #FFFFFF 0% , #FFFFFF 80%,  #00DCA5 80%, #00DCA5 100%); /* FF3.6-15 */
+		  background: -webkit-linear-gradient(180deg, #FFFFFF 0% , #FFFFFF 80%,  #00DCA5 80%, #00DCA5 100%); /* Chrome10-25,Safari5.1-6 */
+		  background: linear-gradient(180deg, #FFFFFF 0% , #FFFFFF 80%,  #00DCA5 80%, #00DCA5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+		  padding-top: 5em;
+		  padding-bottom: 5em;
+		}
+
+		.financeiro-inteligente-completo-posicionamento {
+			margin-bottom: -8em;
+			padding: 5em 3em 8em 3em;
+		}
+
+		.prontuario-eletronico-posicionamento {
+			padding: 0em 3em 0em 3em;
+		}
+
+
+		.diagonal-background-verde-claro h2 {
+			font-size: 1.4em;
+			line-height: 1.2em;
+			font-weight: 700;
+			#text-align: justify;
+    		#text-justify: inter-word;
+		}
+
+		.diagonal-background-verde-claro p {
+			font-size: 0.9em;
+			line-height: 1.25em;
+			letter-spacing: 0.02em;
+			#text-align: justify;
+    		#text-justify: inter-word;
+		}
+
+		.sistema-gestao-completo h2 {
+			color: #FFFFFF;
+			#text-align: center;
+			line-height: 1.2em;
+		}
+
+		.sistema-gestao-completo p {
+			color: #43CAFF;
+			#text-align: justify;
+    		text-justify: inter-word;
+    		font-size: 1.2em;
+    		line-height: 1.1em;
+    		letter-spacing: 0.03em;
+		}
+
+		.desconto-promocional img {
+			width: 60%;
+			height: 60%;
+			margin: 0 auto;
+
+		}
+
+		.campos-formulario {
+			text-align: center;
+			background-color: #2D3897;
+			color: #FFF;
+		}
+
+		.formulario-posicionamento {
+			background-image: url("../img/9.jpg");
+			min-height: 100%;
+		}
+
+		.sistema-gestao-completo h2 {
+			font-size: 30px;
+		}
+
+		.sistema-gestao-completo p {
+			font-size: 18px;
+		}
+
+		.sistema-gestao-completo {
+			padding-bottom: 3em 0em; 
+		}
+
+		.desconto-promocional {
+			padding: 2em 0em;
+		}
+
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    	.all-container {
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#004196+0,004196+51,ffffff+51,ffffff+100 */
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2E64B5+0,004196+51,ffffff+51,ffffff+100 */
+			background: #2E64B5; /* Old browsers */
+			background: -moz-linear-gradient(340deg, #2E64B5 0%, #2E64B5 51%, #ffffff 51%, #ffffff 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(340deg, #2E64B5 0%,#2E64B5 51%,#ffffff 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(340deg, #2E64B5 0%,#2E64B5 51%,#ffffff 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2E64B5', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+		}
+    	
+    	.posicionamento-relativo {
+			position: relative;
+			top: 0px;
+			bottom: 0px;
+		}
+
+    	.diagonal-background-verde-azulado {
+		  background-color: #00BCD2;
+		   background: -moz-linear-gradient(180deg, #FFFFFF 0% , #FFFFFF 70%,  #00BCD2 70%, #00BCD2 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(180deg, #FFFFFF 0% , #FFFFFF 70%,  #00BCD2 70%, #00BCD2 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(180deg, #FFFFFF 0% , #FFFFFF 70%,  #00BCD2 70%, #00BCD2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		}
+
+		.diagonal-background-verde-azulado h2 {
+			font-size: 1.4em;
+			line-height: 1.2em;
+			font-weight: 700;
+			#text-align: justify;
+    		#text-justify: inter-word;
+		}
+
+		.diagonal-background-verde-azulado p {
+			font-size: 0.9em;
+			line-height: 1.25em;
+			letter-spacing: 0.02em;
+			#text-align: justify;
+    		#text-justify: inter-word;
+		}
+
+		.conteudo-agendamento-online {
+			padding-top: 2em;
+		}
+
+		.agendamento-online-posicionamento {
+			z-index: 0;
+			padding: 3em;
+		}
+		.prontuario-eletronico-conteudo {
+			padding-top: 2.4em;
+		}
+
+		.diagonal-background-verde-claro {
+		  background-color: #00DCA5;
+
+		  background: -moz-linear-gradient(180deg, #FFFFFF 0% , #FFFFFF 70%,  #00DCA5 70%, #00DCA5 100%); /* FF3.6-15 */
+		  background: -webkit-linear-gradient(180deg, #FFFFFF 0% , #FFFFFF 70%,  #00DCA5 70%, #00DCA5 100%); /* Chrome10-25,Safari5.1-6 */
+		  background: linear-gradient(180deg, #FFFFFF 0% , #FFFFFF 70%,  #00DCA5 70%, #00DCA5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+		  padding-top: 5em;
+		  padding-bottom: 5em;
+		}
+
+		.financeiro-inteligente-completo-posicionamento {
+			margin-bottom: -6em;
+			padding: 5em 0em 10em 0em;
+		}
+
+		.diagonal-background-verde-claro h2 {
+			font-size: 1.4em;
+			line-height: 1.2em;
+			font-weight: 700;
+			#text-align: justify;
+    		#text-justify: inter-word;
+		}
+
+		.diagonal-background-verde-claro p {
+			font-size: 0.9em;
+			line-height: 1.25em;
+			letter-spacing: 0.02em;
+			#text-align: justify;
+    		#text-justify: inter-word;
+		}
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    	div.logotipo {
+    		padding-left: 4em;
+    	}
+
+    	div.computador-inicial {
+    		padding-top: 3.5em;
+    	}
+
+    	div.texto-inicial {
+    		padding-top: 5.5em;
+			padding-right: 4em;
+    	}
+
+    	.all-container {
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#004196+0,004196+51,ffffff+51,ffffff+100 */
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2E64B5+0,004196+51,ffffff+51,ffffff+100 */
+			background: #2E64B5; /* Old browsers */
+			background: -moz-linear-gradient(45deg, #2E64B5 0%, #2E64B5 51%, #ffffff 51%, #ffffff 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(45deg, #2E64B5 0%,#2E64B5 51%,#ffffff 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(45deg, #2E64B5 0%,#2E64B5 51%,#ffffff 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2E64B5', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+		}
+
+    	.posicionamento-relativo {
+			position: relative;
+			top: -40px;
+			bottom: -40px;
+			z-index: 999;
+		}
+
+    	.diagonal-background-verde-azulado {
+		  background-color: #00BCD2;
+		  background: -moz-linear-gradient(45deg, #FFFFFF 0% , #FFFFFF 70%,  #00BCD2 70%, #00BCD2 100%); /* FF3.6-15 */
+		  background: -webkit-linear-gradient(45deg, #FFFFFF 0% , #FFFFFF 70%,  #00BCD2 70%, #00BCD2 100%); /* Chrome10-25,Safari5.1-6 */
+		  background: linear-gradient(45deg, #FFFFFF 0% , #FFFFFF 70%,  #00BCD2 70%, #00BCD2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		}
+
+		.diagonal-background-verde-azulado h2 {
+			font-size: 1.4em;
+			line-height: 1.2em;
+			font-weight: 700;
+		}
+
+		.diagonal-background-verde-azulado p {
+			font-size: 0.9em;
+			line-height: 1.25em;
+			letter-spacing: 0.02em;
+		}
+
+		.conteudo-agendamento-online {
+			padding-top: 2em;
+		}
+
+		.agendamento-online-posicionamento {
+			z-index: 0;
+			padding: 3em;
+		}
+		.prontuario-eletronico-conteudo {
+			padding-top: 2.4em;
+		}
+
+		.diagonal-background-verde-claro {
+		  background-color: #00DCA5;
+
+		  background: -moz-linear-gradient(45deg, #FFFFFF 0% , #FFFFFF 70%,  #00DCA5 70%, #00DCA5 100%); /* FF3.6-15 */
+		  background: -webkit-linear-gradient(45deg, #FFFFFF 0% , #FFFFFF 70%,  #00DCA5 70%, #00DCA5 100%); /* Chrome10-25,Safari5.1-6 */
+		  background: linear-gradient(45deg, #FFFFFF 0% , #FFFFFF 70%,  #00DCA5 70%, #00DCA5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+		  padding-top: 5em;
+		  padding-bottom: 5em;
+		}
+
+		.financeiro-inteligente-completo-posicionamento {
+			margin-bottom: -6em;
+			padding: 5em 0em 10em 0em;
+		}
+
+		.diagonal-background-verde-claro h2 {
+			font-size: 1.4em;
+			line-height: 1.2em;
+			font-weight: 700;
+		}
+
+		.diagonal-background-verde-claro p {
+			font-size: 0.9em;
+			line-height: 1.25em;
+			letter-spacing: 0.02em;
+		}
+
+		.campos-formulario {
+			text-align: center;
+			background-color: #2D3897;
+			color: #FFF;
+			padding-top: 1em;
+		}
+
+		.campos-formulario label {
+			float: left;
+		}
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    	.all-container {
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#004196+0,004196+51,ffffff+51,ffffff+100 */
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2E64B5+0,004196+51,ffffff+51,ffffff+100 */
+			background: #2E64B5; /* Old browsers */
+			background: -moz-linear-gradient(45deg, #2E64B5 0%, #2E64B5 51%, #ffffff 51%, #ffffff 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(45deg, #2E64B5 0%,#2E64B5 51%,#ffffff 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(45deg, #2E64B5 0%,#2E64B5 51%,#ffffff 51%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2E64B5', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+		}
+
+    	.posicionamento-relativo {
+			position: relative;
+			top: -40px;
+			bottom: -40px;
+			z-index: 999;
+		}
+    	.diagonal-background-verde-azulado {
+		  background-color: #00BCD2;
+		   background: -moz-linear-gradient(45deg, #FFFFFF 0% , #FFFFFF 70%,  #00BCD2 70%, #00BCD2 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(45deg, #FFFFFF 0% , #FFFFFF 70%,  #00BCD2 70%, #00BCD2 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(45deg, #FFFFFF 0% , #FFFFFF 70%,  #00BCD2 70%, #00BCD2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */70
+		}
+
+		.diagonal-background-verde-azulado h2 {
+			font-size: 1.4em;
+			line-height: 1.2em;
+			font-weight: 700;
+		}
+
+		.diagonal-background-verde-azulado p {
+			font-size: 0.9em;
+			line-height: 1.25em;
+			letter-spacing: 0.02em;
+		}
+
+		.conteudo-agendamento-online {
+			padding-top: 2em;
+		}
+
+		.agendamento-online-posicionamento {
+			z-index: 0;
+			padding: 3em;
+		}
+		.prontuario-eletronico-conteudo {
+			padding-top: 2.4em;
+		}
+
+		.diagonal-background-verde-claro {
+		  background-color: #00DCA5;
+
+		  background: -moz-linear-gradient(45deg, #FFFFFF 0% , #FFFFFF 70%,  #00DCA5 70%, #00DCA5 100%); /* FF3.6-15 */
+		  background: -webkit-linear-gradient(45deg, #FFFFFF 0% , #FFFFFF 70%,  #00DCA5 70%, #00DCA5 100%); /* Chrome10-25,Safari5.1-6 */
+		  background: linear-gradient(45deg, #FFFFFF 0% , #FFFFFF 70%,  #00DCA5 70%, #00DCA5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+		  padding-top: 5em;
+		  padding-bottom: 5em;
+		}
+
+		.financeiro-inteligente-completo-posicionamento {
+			margin-bottom: -6em;
+			padding: 5em 0em 10em 0em;
+		}
+
+		.diagonal-background-verde-claro h2 {
+			font-size: 1.4em;
+			line-height: 1.2em;
+			font-weight: 700;
+		}
+
+		.diagonal-background-verde-claro p {
+			font-size: 0.9em;
+			line-height: 1.25em;
+			letter-spacing: 0.02em;
+		}
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+    	.diagonal-background-verde-azulado {
+		  background-color: #00BCD2;
+		   background: -moz-linear-gradient(45deg, #FFFFFF 0% , #FFFFFF 70%,  #00BCD2 70%, #00BCD2 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(45deg, #FFFFFF 0% , #FFFFFF 70%,  #00BCD2 70%, #00BCD2 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(45deg, #FFFFFF 0% , #FFFFFF 70%,  #00BCD2 70%, #00BCD2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		}
+
+		.diagonal-background-verde-azulado h2 {
+			font-size: 1.4em;
+			line-height: 1.2em;
+			font-weight: 700;
+		}
+
+		.diagonal-background-verde-azulado p {
+			font-size: 0.9em;
+			line-height: 1.25em;
+			letter-spacing: 0.02em;
+		}
+
+		.conteudo-agendamento-online {
+			padding-top: 2em;
+		}
+
+		.agendamento-online-posicionamento {
+			z-index: 0;
+			padding: 3em;
+		}
+		.prontuario-eletronico-conteudo {
+			padding-top: 2.4em;
+		}
+
+		.diagonal-background-verde-claro {
+		  background-color: #00DCA5;
+
+		  background: -moz-linear-gradient(45deg, #FFFFFF 0% , #FFFFFF 70%,  #00DCA5 70%, #00DCA5 100%); /* FF3.6-15 */
+		  background: -webkit-linear-gradient(45deg, #FFFFFF 0% , #FFFFFF 70%,  #00DCA5 70%, #00DCA5 100%); /* Chrome10-25,Safari5.1-6 */
+		  background: linear-gradient(45deg, #FFFFFF 0% , #FFFFFF 70%,  #00DCA5 70%, #00DCA5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+		  padding-top: 5em;
+		  padding-bottom: 5em;
+		}
+
+		.financeiro-inteligente-completo-posicionamento {
+			margin-bottom: -6em;
+			padding: 5em 0em 10em 0em;
+		}
+
+		.diagonal-background-verde-claro h2 {
+			font-size: 1.4em;
+			line-height: 1.2em;
+			font-weight: 700;
+		}
+
+		.diagonal-background-verde-claro p {
+			font-size: 0.9em;
+			line-height: 1.25em;
+			letter-spacing: 0.02em;
+		}
+    }
+
+    /* ----------------------------------------------------------------------------------------------------
+Super Form Reset
+A couple of things to watch out for:
+- IE8: If a text input doesn't have padding on all sides or none the text won't be centered.
+- The default border sizes on text inputs in all UAs seem to be slightly different. You're better off using custom borders.
+- You NEED to set the font-size and family on all form elements
+- Search inputs need to have their appearance reset and the box-sizing set to content-box to match other UAs
+- You can style the upload button in webkit using ::-webkit-file-upload-button
+- ::-webkit-file-upload-button selectors can't be used in the same selector as normal ones. FF and IE freak out.
+- IE: You don't need to fake inline-block with labels and form controls in IE. They function as inline-block.
+- By turning off ::-webkit-search-decoration, it removes the extra whitespace on the left on search inputs
+----------------------------------------------------------------------------------------------------*/
